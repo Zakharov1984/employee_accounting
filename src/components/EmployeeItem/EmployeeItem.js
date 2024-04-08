@@ -1,4 +1,4 @@
-
+import './employeeItem.css'
 
 export  const EmployeeItem = () => {
   return (
@@ -12,7 +12,7 @@ export  const EmployeeItem = () => {
           </button>
 
           <button type="button"
-            className="btn-trash btn-sm ">
+            className="btn-trash btn-sm">
             <i className="fas fa-trash"></i>
           </button>
           <i className="fas fa-star"></i>
